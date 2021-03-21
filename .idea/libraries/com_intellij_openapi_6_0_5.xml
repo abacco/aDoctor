@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.intellij:openapi:6.0.5" type="repository">
+    <properties maven-id="com.intellij:openapi:LATEST" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/openapi-5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
