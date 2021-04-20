@@ -1,21 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module type="PLUGIN_MODULE" version="4">
+<module external.linked.project.id="aDoctor" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" relativePaths="true" type="JAVA_MODULE" version="4">
   <component name="DevKit.ModuleBuildProperties" url="file://$MODULE_DIR$/resources/META-INF/plugin.xml" />
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/testResources" type="java-test-resource" />
-      <excludeFolder url="file://$MODULE_DIR$/test" />
-      <excludeFolder url="file://$MODULE_DIR$/testResources" />
-    </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="TEST" name="JUnit Jupiter" level="project" />
-    <orderEntry type="library" scope="TEST" name="Mockito" level="project" />
-    <orderEntry type="library" name="JDT Core 3.20" level="project" />
-    <orderEntry type="library" name="HttpClient 4.5.11" level="project" />
-  </component>
 </module>
