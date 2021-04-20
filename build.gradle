@@ -1,3 +1,42 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+}
+
 apply plugin: 'idea'
 //and standard one
 apply plugin: 'java'
+
+/*sourceSets {
+    main(({
+        java {
+            srcDir 'src'
+        }
+    } as String))
+
+    test {
+        java {
+            srcDir 'test'
+        }
+    }
+}*/
+
+
+repositories {
+    mavenCentral()
+/*    maven {
+        url "https://maven.springframework.org/release"
+    }
+    maven {
+        url "https://maven.restlet.com"
+    }*/
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.eclipse.jdt/org.eclipse.jdt.core
+    implementation group: 'org.eclipse.jdt', name: 'org.eclipse.jdt.core', version: '3.22.0'
+    // https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
+    implementation 'org.junit.jupiter:junit-jupiter:5.4.2'
+    implementation 'org.junit.jupiter:junit-jupiter:5.4.2'
+}

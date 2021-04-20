@@ -4,6 +4,7 @@ import adoctor.application.ast.ASTUtilities;
 import adoctor.application.bean.ClassBean;
 import adoctor.application.smell.ClassSmell;
 import adoctor.application.smell.ISSmell;
+
 import org.apache.commons.lang3.tuple.MutablePair;
 import org.apache.commons.lang3.tuple.Pair;
 import org.eclipse.jdt.core.dom.*;
