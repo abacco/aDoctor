@@ -1,35 +1,13 @@
 plugins {
     id 'java'
-    id 'eclipse'
 }
 
 apply plugin: 'idea'
 //and standard one
 apply plugin: 'java'
 
-/*sourceSets {
-    main(({
-        java {
-            srcDir 'src'
-        }
-    } as String))
-
-    test {
-        java {
-            srcDir 'test'
-        }
-    }
-}*/
-
-
 repositories {
     mavenCentral()
-/*    maven {
-        url "https://maven.springframework.org/release"
-    }
-    maven {
-        url "https://maven.restlet.com"
-    }*/
 }
 
 dependencies {
@@ -38,5 +16,13 @@ dependencies {
     // https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
     implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
     implementation 'org.junit.jupiter:junit-jupiter:5.4.2'
-    compile 'org.apache.httpcomponents:httpclient:4.5'
+    // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
+    implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5'
+
+    // https://mvnrepository.com/artifact/com.intellij/annotations
+    implementation group: 'com.intellij', name: 'annotations', version: '12.0'
+    // https://mvnrepository.com/artifact/com.intellij/openapi
+    implementation group: 'com.intellij', name: 'openapi', version: '7.0.3'
+
+
 }
